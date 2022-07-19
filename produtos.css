@@ -23,6 +23,10 @@ nav a{
 	font-size: 22px;
 	text-decoration: none;
 }
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
 .produtos {
 	width: 940px;
 	margin: 0 auto;
@@ -36,6 +40,8 @@ nav a{
 	padding: 30px 20px;
 	margin: 0 1.5%;
 	box-sizing: border-box;
+	border:  2px solid black;
+	border-radius: 50px;
 
 }
 .produtos h2 {
