@@ -1,43 +1,128 @@
+header {
+	padding: 20px 0;
+}
 body {
+	font-family: sans-serif;
+	font-size: 13px;
 }
-.titulo-principal {
-	padding-left: 20px;
+.caixa {
+	position: relative;
+	width: 950px;
+	margin: 0 auto;
 }
-#banner{
-	width: 100%;
+nav {
+	position: absolute;
+	top:  20px;
+	right: 30px;
 }
-.principal{
-	background: #CCCCCC;
-	padding:  30px;
-}
-
-.titular-centralizado {
-	text-align: center;
-}
-p {
-	text-align: center;
-}
-
-#missao {
-	font-size: 20px;
-}
-em strong {
-	color:  blueviolet;
-}
-.itens{
-	font-style: italic;
-}
-.beneficios{
-	background: #FFFFFF;
-	padding: 20px;
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
 }
 
-ul{
-	display: inline-block;
+nav a {
+	font-size: 14px;
+	text-decoration: none;	
 	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
+	position: relative;
+
 }
-.imgbene{
-	width: 50%;
+.index {
+	color: gray;
+}
+.produtos {
+	color: gray;
+}
+.botao-login {
+	border: solid 8px #1a73e8;
+	border-right-width: 20px;
+	border-left-width: 20px;
+	border-top-width: 12px;
+	background: #1a73e8;
+	border-radius: 5px;
+	color: white;
+	padding-top: 5px;
+}
+.logomeio {
+	text-align: center;
+}
+.logogoogle {
+	width: 300px;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 70px;
+	margin-right: 500px;
+	margin-left: 500px;
+}
+.caixameio {
+	width: 40%;
+	margin-top: 50px;
+}
+.botoesmeio {
+	display: block;
+	text-align: center;
+	box-sizing: border-box;
+	vertical-align: center;
+	position: relative;
+	margin-top: 40px;
+}
+.pesquisa {
+	border: solid 1px;
+	border-color: #f8f9fa ;
+	background-color: #f8f9fa;
+	border-radius: 4px;
+	padding: 5px 10px;
+	margin-right: 10px;
+	color: #3c4043;
+}
+.sorte {
+	border: solid 1px;
+	border-color: #f8f9fa ;
+	background-color: #f8f9fa;
+	border-radius: 4px;
+	padding: 5px 10px;
+	margin-right: 10px;
+	color: #3c4043;
+}
+.brasil {
+	padding-left: 20px;
+	color: gray;
+	background-color: #f8f9fa;
+	margin-top: 470px;
+	padding: 15px;
+	border-bottom: solid 1px #dadce0;
+}
+footer {
+	background-color: #f8f9fa;
+	margin-bottom: 0px;
+}
+.final {
+	position: relative;
+	display: inline-block;
+	color: #70757a;
+	margin: 20px 15px;
+	color: #70757a;
+}
+.final2 {
+	position: relative;
+	display: inline-block;
+	flex-wrap: wrap;
+	color: #70757a;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	color: #70757a;
+	margin-right: 20px;
+	margin-bottom: 0;
+}
+.final3 {
+	position: relative;
+	display: inline-block;
+	flex-wrap: wrap;
+	color: #70757a;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	color: #70757a;
+	margin-left: 59%;
+	margin-right: 15px;
+	margin-bottom: 0;
 }
