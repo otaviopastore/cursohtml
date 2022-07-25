@@ -1,9 +1,6 @@
 header {
+	background: #BBBBBB;
 	padding: 20px 0;
-}
-body {
-	font-family: sans-serif;
-	font-size: 13px;
 }
 .caixa {
 	position: relative;
@@ -12,117 +9,71 @@ body {
 }
 nav {
 	position: absolute;
-	top:  20px;
-	right: 30px;
+	top:  200px;
+	right: 140px;
 }
-nav li {
+nav li{
 	display: inline;
 	margin: 0 0 0 15px;
 }
-
-nav a {
-	font-size: 14px;
-	text-decoration: none;	
-	vertical-align: top;
-	position: relative;
-
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bolder;
+	font-size: 22px;
+	text-decoration: none;
 }
-.index {
-	color: gray;
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
 }
 .produtos {
-	color: gray;
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
 }
-.botao-login {
-	border: solid 8px #1a73e8;
-	border-right-width: 20px;
-	border-left-width: 20px;
-	border-top-width: 12px;
-	background: #1a73e8;
-	border-radius: 5px;
-	color: white;
-	padding-top: 5px;
-}
-.logomeio {
+.produtos li {
+	display: inline-block;
 	text-align: center;
-}
-.logogoogle {
-	width: 300px;
-	text-align: center;
+	width: 30%;
 	vertical-align: top;
-	margin-top: 70px;
-	margin-right: 500px;
-	margin-left: 500px;
-}
-.caixameio {
-	width: 40%;
-	margin-top: 50px;
-}
-.botoesmeio {
-	display: block;
-	text-align: center;
+	padding: 30px 20px;
+	margin: 0 1.5%;
 	box-sizing: border-box;
-	vertical-align: center;
-	position: relative;
-	margin-top: 40px;
+	border:  2px solid black;
+	border-radius: 50px;
+
 }
-.pesquisa {
-	border: solid 1px;
-	border-color: #f8f9fa ;
-	background-color: #f8f9fa;
-	border-radius: 4px;
-	padding: 5px 10px;
-	margin-right: 10px;
-	color: #3c4043;
+.produtos li:hover {
+	border-color: #C78C19;
+
 }
-.sorte {
-	border: solid 1px;
-	border-color: #f8f9fa ;
-	background-color: #f8f9fa;
-	border-radius: 4px;
-	padding: 5px 10px;
-	margin-right: 10px;
-	color: #3c4043;
+.produtos li:active {
+	border-color: green;
 }
-.brasil {
-	padding-left: 20px;
-	color: gray;
-	background-color: #f8f9fa;
-	margin-top: 470px;
-	padding: 15px;
-	border-bottom: solid 1px #dadce0;
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.produto-descricao {
+	font-size: 18px;
+}
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px 0 0;
 }
 footer {
-	background-color: #f8f9fa;
-	margin-bottom: 0px;
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 0 0;
+
 }
-.final {
-	position: relative;
-	display: inline-block;
-	color: #70757a;
-	margin: 20px 15px;
-	color: #70757a;
+.copyright {
+	color: whitesmoke;
+	font-size: 13px;
+	margin: 20px 0;
 }
-.final2 {
-	position: relative;
-	display: inline-block;
-	flex-wrap: wrap;
-	color: #70757a;
-	margin-top: 20px;
-	margin-bottom: 0px;
-	color: #70757a;
-	margin-right: 20px;
-	margin-bottom: 0;
-}
-.final3 {
-	position: relative;
-	display: inline-block;
-	flex-wrap: wrap;
-	color: #70757a;
-	margin-top: 20px;
-	margin-bottom: 0px;
-	color: #70757a;
-	margin-left: 59%;
-	margin-right: 15px;
-	margin-bottom: 0;
-}
+
+

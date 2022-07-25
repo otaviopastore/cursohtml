@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<title> Google</title>
 		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet"href=style.css>
+		<link rel="stylesheet"href=index.css>
 		<link rel="icon" href="logo-google.png">
 
 	</head>
@@ -15,8 +15,8 @@
 			<ul>
 				<li class="index"><a>Gmail</a></li>
 				<li class="produtos"><a >Imagens</a></li>
-				<li><img src="teste.png"></li>
-				<li class="botao-login"><a>Fazer Login</a></li>
+				<li class="pontinhos"><img src="teste.png"></li>
+				<li class="botao-login"><a href="https://www.google.com/search?q=phishing&source=hp&ei=RF_cYuPaOoiS5OUPzNKkoAk&iflsig=AJiK0e8AAAAAYtxtVGJB-XKJ3mCjjeMP2FAUNrZN6V43&ved=0ahUKEwjjjMjl8Y_5AhUICbkGHUwpCZQQ4dUDCAY&uact=5&oq=pyshing&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAELEDEAoyBAgAEAoyBAgAEAoyBAgAEAoyBAgAEAoyBAgAEAoyBAgAEAoyBAgAEAoyBAgAEAoyBAgAEAo6CwguEIAEELEDEIMBOgsIABCABBCxAxCDAToICAAQgAQQsQM6BQgAEIAEOggIABCxAxCDAToICC4QgAQQsQM6BwgAEIAEEAo6CwguEIAEEMcBEK8BUABYswdgqAhoAHAAeACAAWuIAZ0FkgEDNi4xmAEAoAEB&sclient=gws-wiz"><button>Fazer Login</button></a></li>
 			</ul>
 			</nav>
 			</div>
@@ -25,12 +25,21 @@
 		<div class="logomeio">
 			
 			<img class="logogoogle" src="googlemeio.png">
-
-			<img class="caixameio" src="caixatexto.png">
+			<div class="divisaopesquisa">
+			<img id="pesquisinha" src="pesquisinha.png">
+			<label id="label" for="pesquisa">
+				<input type="text"id="pesquisa"name="texto"></input>
+				<input id="limpador" type="submit" value=""></input>
+			</label>
+			
+	
+			<img id="tecladinho" src="tecladinho.png">
+			
+			</div>
 		</div>
 		<div class="botoesmeio">
-			<a class="pesquisa">Pesquisa Google</a>
-			<a class="sorte">Estou com sorte</a>
+			<a href="produtos.html"><button class="pesquisa">Pesquisa Google</button></a>
+			<a href="contato.html"><button class="pesquisa">Estou com sorte</button></a>
 		</div>
 		<footer>
 			<ul>
@@ -39,9 +48,11 @@
 			<li class="final">Publicidade</li>
 			<li class="final">Negócios</li>
 			<li class="final">Como funciona a pesquisa</li>
-			<li class="final3">Privacidade</li>
+			<ul>
+			<li class="final2">Privacidade</li>
 			<li class="final2">Termos</li>
 			<li class="final2">Configurações</li>
+		</ul>
 		</ul>
 
 		</footer>

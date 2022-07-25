@@ -1,0 +1,230 @@
+header {
+	padding: 20px 0;
+}
+body {
+	font-family: sans-serif;
+	font-size: 13px;
+}
+.caixa {
+	position: relative;
+	width: 950px;
+	margin: 0 auto;
+}
+nav {
+	position: absolute;
+	top:  20px;
+	right: 30px;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	font-size: 14px;
+	text-decoration: none;	
+	vertical-align: top;
+	position: relative;
+
+}
+.index {
+	color: gray;
+}
+.pontinhos {
+	border: solid white 6px;
+	background-color: white;
+	border-radius: 20px;
+	border-width: 9px;
+	border-top-width: 16px;
+	border-right-width: 10px;
+	border-left-width: 10px;
+}
+.pontinhos:hover {
+	border-color: #f8f9fa;
+	background-color: #f8f9fa;
+}
+.produtos {
+	color: gray;
+}
+.logomeio {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10%;
+}
+input {
+	outline: none;
+}
+.divisaopesquisa {
+	margin-top: 20px;
+	border: 1px solid #dfe1e5;
+	width: 600px;
+	height: 42px;
+	max-width: 584px;
+	border-radius: 23px;
+}
+.divisaopesquisa:hover {
+	box-shadow: 0 0 10px #dfe1e5;
+}
+
+#limpador {
+	width: 21px;
+	position: relative;
+	right: 10px;
+	padding-right: 30px;
+	padding-top: 3px;
+	padding-left: 2px;
+	padding-bottom: 3px;
+	border-top: 0px;
+	border-left: 0px;
+	border-bottom: 0px;
+	border-right:solid 1px #dfe1e5 ;
+	background: url("limpador.png");
+	background-repeat: no-repeat;
+	background-size: 22px;
+	margin-bottom: 2px;
+	opacity: 0%;
+
+}
+
+#tecladinho {
+	align-items: center;
+	width: 3.7%;
+	margin-top: 1px;
+	position: relative;
+	top: -7px;
+	right: 6px;
+	padding-left: 2px;
+}
+#pesquisinha {
+	width: 5%;
+	margin-top: 1px;
+	border: solid white 2px;
+	border-radius: 30px;
+	left: -8px;
+	position: relative;
+	top: 3px;
+
+
+}
+#pesquisa {
+	width: 460px;
+	height: 30px;
+	position: relative;
+	border: none;
+	top: -9px;
+	left: -5px;
+}
+
+.botao-login {
+
+	background: #1a73e8;
+	border-radius: 5px;
+	color: white;
+	padding-top: 5px;
+
+}
+ul li a button {
+	text-decoration: none;
+	color: white;
+	background:#1a73e8 ;
+	border: solid 8px #1a73e8;
+	border-top-width: 9px;
+	border-right-width: 22px;
+	border-left-width: 22px;
+	position: relative;
+	border-radius: 5px;
+	top: -8px;
+}
+.logomeio {
+	text-align: center;
+}
+.logogoogle {
+
+	width: 280px;
+	margin-top: 25px;
+
+}
+.caixameio {
+	width: 40%;
+	margin-top: 50px;
+}
+.botoesmeio {
+	display: block;
+	text-align: center;
+	box-sizing: border-box;
+	vertical-align: center;
+	position: relative;
+	margin-top: 40px;
+}
+
+.pesquisa {
+	border: solid 1px;
+	border-color: #f8f9fa ;
+	background-color: #f8f9fa;
+	border-radius: 4px;
+	padding: 10px 15px;
+	margin-right: 10px;
+	color: #3c4043;
+	text-decoration: none;
+}
+div a {
+	text-decoration: none;
+}
+.pesquisa:hover {
+	border: solid #dfe1e5 1px;
+	text-decoration: none;
+
+}
+.sorte {
+	border: solid 1px;
+	border-color: #f8f9fa ;
+	background-color: #f8f9fa;
+	border-radius: 4px;
+	padding: 10px 15px;
+	margin-right: 10px;
+	color: #3c4043;
+	margin-bottom: 200px;
+}
+.brasil {
+	padding-left: 20px;
+	color: gray;
+	background-color: #f8f9fa;
+	margin-top: 7.2vw;
+	padding: 15px;
+	border-bottom: solid 1px #dadce0;
+}
+
+footer {
+	background-color: #f8f9fa;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+
+}
+.final {
+	position: relative;
+	display: inline-block;
+	color: #70757a;
+	margin: 20px 15px;
+	color: #70757a;
+}
+ul {
+	position: relative;
+	display: inline;
+	margin: 0px;
+	text-decoration: none;
+
+}
+.final2 {
+	left: 40vw;
+	position: relative;
+	display: inline-block;
+	flex-wrap: wrap;
+	color: #70757a;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	color: #70757a;
+	margin-right: 20px;
+	margin-bottom: 0;
+}
